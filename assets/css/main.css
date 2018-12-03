@@ -20,22 +20,29 @@ body {
 .nav-link:link {
   color: #163870;
 }
-
+.footer {
+  background-color: #163870;
+  color: #FFFFFF;
+}
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  /* Set the fixed height of the footer here */
-  background-color: #163870;
-  color: #FFFFFF;
-  height: 5em;
-  line-height: 5em; /* Vertically center the text there */
 }
 
 .footer p {
   margin-bottom: 0;
 }
 
+.footer a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.footer a:hover{
+  text-decoration: none;
+  color: #aaaaaa;
+}
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
