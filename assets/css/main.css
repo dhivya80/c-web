@@ -1,12 +1,40 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
-
-body {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro');
+html {
+  position: relative;
+  min-height: 100%;
 }
 
+body {
+  font-family: 'Maven Pro', sans-serif;
+  margin-bottom: 5em;
+}
+
+.nav-item {
+  font-size: 1.5em;
+  padding-right: 2em;
+}
+
+.nav-link:link {
+  color: #163870;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  background-color: #163870;
+  color: #FFFFFF;
+  height: 5em;
+  line-height: 5em; /* Vertically center the text there */
+}
+
+.footer p {
+  margin-bottom: 0;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
