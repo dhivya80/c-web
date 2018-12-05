@@ -1,7 +1,7 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
-@import url('https://fonts.googleapis.com/css?family=Maven+Pro');
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,700');
 html {
   position: relative;
   min-height: 100%;
@@ -12,14 +12,21 @@ body {
   margin-bottom: 5em;
 }
 
-.nav-item {
-  font-size: 1.5em;
-  padding-right: 2em;
+.navbar-light .navbar-nav .nav-link{
+  font-weight: bold;
+  color: #ffffff;
 }
 
-.nav-link:link {
-  color: #163870;
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #A0A0A0;
 }
+
+.nav-item {
+  font-size: 1.05em;
+  text-transform: uppercase;
+}
+
+/* Footer section */
 .footer {
   background-color: #163870;
   color: #FFFFFF;
